@@ -43,14 +43,14 @@ ReactDOM.render(
   <React.StrictMode>
     <RouterProvider router={router} />
 
-  </React.StrictMode>,
+  </React.StrictMode>,.
   document.getElementById('root')
 );*/
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles.css';
 import App from './App';
-import { AuthProvider } from './context/AuthProvider';
+import { AuthProvider } from '../src/api/context/AuthProvider';
 
 ReactDOM.render(
   <React.StrictMode>
