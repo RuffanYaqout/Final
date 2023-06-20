@@ -17,7 +17,7 @@ import hospital3 from "../images/hospital3.jpeg"
 import Modal from 'react-bootstrap/Modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar ,faLocationDot} from '@fortawesome/free-solid-svg-icons';
-
+//hi
     function Home() {
       const [show, setShow] = useState(false);
 
